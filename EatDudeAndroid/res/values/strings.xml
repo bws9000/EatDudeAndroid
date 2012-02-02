@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eat Dude!</string>
+    <string name="textview_get_restaurant">get restaurant from web</string>
+    <string name="button_get_restaurant">submit</string>
+    <string name="button_add_item">add note</string>
+    <string name="button_order">review notes</string>
+    <string name="remote_app_address">https://wileynet5.appspot.com</string>
+    <string name="call_restaurant">call</string>
+    <string name="restaurant_details">details</string>
+    <string name="call_restaurant_inactive">call</string>
+    <string name="restaurant_details_inactive">details</string>
+    <string name="home">home</string>
+    <string name="home_inactive">home</string>
+    <string name="help">help</string>
+    <string name="help_inactive">help</string>
+    
+    <string name="eula">This legal End User License Agreement is between you ( single entity or individual ) and Wileynet Inc. in regards to the copyrighted Software “Eat Dude!” ( Herein referred to as “Software” ) provided with this EULA.\n\nThe Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. This software product is licensed, not sold. You agree not to loan, lease or rent the software. You agree that this Software may not satisfy your expectations or be free from defects.\n\nYou agree that you or your organization will not reverse compile, modify, translate or disassemble this Software in whole or in part. You will make every reasonable effort to prevent reverse engineering, modification, dissection or tampering of this software by you, your employees or anyone given access to this Software directly or indirectly by you or your organization.\n\nYou agree that the ownership of the intellectual property in the Software is the exclusive property of Wileynet Inc. You will not acquire any rights to the Software.\n\nThe Software is provided “AS IS” without any warranty whatsoever of any kind. You accept full responsibility for the use of the Software. The use of the Software is at your own risk. You agree to be nice, follow all laws and use the Software exactly as it was intended.\n\nWileynet Inc. will not be liable for any damages( including, pecuniary loss, consequential damages, loss of business profits, business interruption, loss of information, damages of any kind ) whatsoever by the use or inability to use the Software.\n\nYou agree to indemnify and defend Wileynet Inc. against any claims, lawsuits, fees or absolutely anything resulting from the use or distribution of the Software in violation of this agreement.\n\nClick \"Yes\" to agree to the terms of this License Agreement. Click \"No\" to exit.\n
+</string>
+	<string name="updates"></string>
+
+</resources>

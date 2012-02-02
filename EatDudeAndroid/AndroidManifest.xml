@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.wileynet.eatdude"
+      android:versionCode="2"
+      android:versionName="1.1">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+        
+        <activity android:name="MainHome"
+                  android:label="@string/app_name" 
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+            <intent-filter>
+    			<action android:name="android.intent.action.VIEW" />
+    			<category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+		    -->
+        </activity>
+        
+        <activity android:name=".CategorySelection"></activity>
+        <activity android:name=".MenuSelection"></activity>
+        
+        <activity android:name=".RestaurantSelection" 
+        				android:configChanges="orientation|keyboardHidden" />
+        
+        <activity android:name=".CitySelection" 
+        				android:configChanges="orientation|keyboardHidden" />
+        
+        <activity android:name=".StateSelection" 
+        				android:configChanges="orientation|keyboardHidden" />
+        
+        <activity android:name=".CountrySelection"
+        				android:configChanges="orientation|keyboardHidden" />
+                      
+        <activity android:name=".Restaurant"></activity>
+		<activity android:name=".ItemSelection"></activity>
+		<activity android:name=".ItemDisplay"></activity>
+		<activity android:name=".HelpHome"></activity>
+		
+    </application>
+    <uses-sdk android:minSdkVersion="3"/>
+
+</manifest> 

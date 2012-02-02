@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/call_restaurant_inactive"
+          android:icon="@drawable/call_restaurant_inactive"
+          android:title="@string/call_restaurant_inactive" />
+    <item android:id="@+id/restaurant_details_inactive"
+          android:icon="@drawable/restaurant_details_inactive"
+          android:title="@string/restaurant_details_inactive" />
+          
+    <item android:id="@+id/home"
+          android:icon="@drawable/home"
+          android:title="@string/home" />
+    <item android:id="@+id/help_inactive"
+          android:icon="@drawable/help_inactive"
+          android:title="@string/help_inactive" />
+</menu>

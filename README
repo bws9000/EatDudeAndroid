@@ -1,0 +1,10 @@
+EatDudeAndroid - Java/Android
+
+The main idea here is for Restaurant Owners to input their menus quickly 
+and easily via the web. These updated menus are made available immediately 
+to the android device. This is in two parts. /EatDudeAndroid is for the device. 
+/EatDudeWeb is the admin on the web. A better version would also use googles GEO API to
+locate the user instead of manually inputing the country/city/state , but this seemed
+like a good option if the Restaurant didn't exist in the google system yet.
+
+#todo ... more here.

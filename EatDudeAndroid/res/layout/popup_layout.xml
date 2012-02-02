@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_menu_root"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+		android:id="@+id/popup_restaurant_details"
+		android:textColor="#000"
+		android:textSize="12pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    />
+    
+    <Button android:id="@+id/popup_menu_button1"
+        android:text="close details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        
+</LinearLayout>

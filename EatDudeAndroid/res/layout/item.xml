@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout  android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        	
+        	<LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+      												 android:layout_height="wrap_content" >
+      												 	
+        					<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+      												 android:layout_height="fill_parent" android:layout_weight="1">
+        					
+        								<TextView	android:id="@+id/item_number" android:layout_width="60pt" 
+    														android:layout_height="wrap_content" android:layout_weight="1" 
+   							 			/>
+   							 			
+        								<TextView	android:id="@+id/item_name" android:layout_width="fill_parent" 
+    														android:layout_height="wrap_content"  android:layout_weight="1"
+    														android:textSize="10pt" android:textStyle="italic" 
+   							 			/>
+   							 			
+    					   </LinearLayout>
+    					   
+    					   <RelativeLayout	android:layout_width="fill_parent"	android:layout_height="fill_parent"
+														android:padding="22dip"   >
+														
+										<TextView	android:id="@+id/item_desc" android:layout_width="fill_parent" 
+    														android:layout_height="wrap_content"  android:layout_weight="1"
+    													    android:textSize="9pt"
+   							 			/>
+						  </RelativeLayout>
+						  
+						  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+      												 android:layout_height="fill_parent" android:layout_weight="1">
+        					
+        								<TextView	android:id="@+id/blank_space" android:layout_width="fill_parent" 
+    														android:layout_height="wrap_content" android:layout_weight="1" 
+   							 			/>
+   							 			
+        								<TextView	android:id="@+id/item_price" android:layout_width="fill_parent" 
+    														android:layout_height="wrap_content"  android:layout_weight="1"
+    														android:textSize="10pt"  android:gravity="right"
+   							 			/>
+   							 			
+    					   </LinearLayout>
+    					   
+    					   
+    			</LinearLayout>	 
+    			
+    			<!--  
+    		<LinearLayout	android:layout_width="fill_parent"	
+    									android:layout_height="wrap_content"
+    									android:weightSum="100"
+										android:layout_alignParentBottom="true"   >
+														
+        								<Button android:text="@string/button_add_item"  
+        											  android:id="@+id/button02" 
+			  										  android:layout_width="0dip" 
+			  										  android:layout_weight="50"
+			  										  android:layout_height="wrap_content" />
+			  										  
+			  							<Button android:text="@string/button_order"  
+        											  android:id="@+id/button02" 
+			  										  android:layout_width="0dip" 
+			  										  android:layout_weight="50"
+			  										  android:layout_height="wrap_content" />
+			  										  	
+    				
+			</LinearLayout>  		   
+			-->
+    			
+    </RelativeLayout>

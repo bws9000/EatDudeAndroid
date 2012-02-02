@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+					 android:layout_width="fill_parent" 
+					 android:layout_height="fill_parent"
+					 android:fillViewport="true"
+					 android:id="@+id/scrollViewHelp">				 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/help_main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+			  
+  
+<TextView
+		android:id="@+id/headerone"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/onecontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/headertwo"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/twocontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+        
+<TextView
+		android:id="@+id/howtoheader"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/howtocontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+        
+<TextView
+		android:id="@+id/restaurantsheader"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/restaurantscontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+        
+        
+<TextView
+		android:id="@+id/headerthree"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+<TextView
+		android:id="@+id/threecontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dip"
+        android:textColor="#000"  />
+        
+        
+
+</LinearLayout>
+</ScrollView>
